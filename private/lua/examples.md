@@ -39,17 +39,17 @@ callbacks.Register( "Draw", "ExampleSnapLines", ExampleSnapLines );
 
 ## Kill Say
 ```lua
-local Kill_String = 'get owned';
-local Death_String = 'nice luck';
+local Kill_String = "get owned";
+local Death_String = "nice luck";
 
 local function CHAT_KillSay( Event )
 
-   if ( Event:GetName() == 'player_death' ) then
+   if ( Event:GetName() == "player_death" ) then
 
        local ME = client.GetLocalPlayerIndex();
 
-       local INT_UID = Event:GetInt( 'userid' );
-       local INT_ATTACKER = Event:GetInt( 'attacker' );
+       local INT_UID = Event:GetInt( "userid" );
+       local INT_ATTACKER = Event:GetInt( "attacker" );
 
        local NAME_Victim = client.GetPlayerNameByUserID( INT_UID );
        local INDEX_Victim = client.GetPlayerIndexByUserID( INT_UID );
@@ -59,11 +59,11 @@ local function CHAT_KillSay( Event )
 
        if ( INDEX_Attacker == ME and INDEX_Victim ~= ME ) then
 
-           client.ChatSay( ' ' .. tostring( Kill_String ) .. ' ' .. NAME_Victim );
+           client.ChatSay( " " .. tostring( Kill_String ) .. " " .. NAME_Victim );
 
        elseif ( INDEX_Victim == ME and INDEX_Attacker ~= ME ) then
 
-           client.ChatSay( ' ' .. tostring( Death_String ) .. ' ' .. NAME_Attacker );
+           client.ChatSay( " " .. tostring( Death_String ) .. " " .. NAME_Attacker );
 
        end
 
@@ -71,9 +71,9 @@ local function CHAT_KillSay( Event )
 
 end
 
-client.AllowListener( 'player_death' );
+client.AllowListener( "player_death" );
 
-callbacks.Register( 'FireGameEvent', 'AWKS', CHAT_KillSay );
+callbacks.Register( "FireGameEvent", "AWKS", CHAT_KillSay );
 ```
 
 ## Auto Buy
