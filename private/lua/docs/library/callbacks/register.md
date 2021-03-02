@@ -21,7 +21,7 @@ This function has no return value.
 
 ## Example
 ```lua
-callbacks.Register("Draw", "Unique" function()
+callbacks.Register("Draw", "Unique", function()
 	print("Draw Callback");
 end)
 
