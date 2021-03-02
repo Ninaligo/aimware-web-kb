@@ -31,6 +31,10 @@ nav:
                 - GuiObject: coming-soon.md
                 - Socket: coming-soon.md
                 - Vector3: coming-soon.md
+                - Entity: lua/docs/class/entity.md
+                - GameEvent: lua/docs/class/gameevent.md
+                - UserCmd: lua/docs/class/usercmd.md
+                - UserMessages: lua/docs/class/usermessages.md
             - Libraries:
                 - Callbacks:
                     - Register: lua/docs/library/callbacks/register.md
