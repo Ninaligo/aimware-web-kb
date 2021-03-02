@@ -1,5 +1,6 @@
-| KEY_FIRST  | 0  |   |
+|  |  |   |
 | ------------ | ------------ | ------------ |
+| KEY_FIRST  | 0  |   |
 | KEY_NONE  | 0  |   |
 | KEY_0  | 1  | Left Mouse  |
 | KEY_1  | 2  | Right Mouse  |
