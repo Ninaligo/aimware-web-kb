@@ -121,7 +121,7 @@ local debugFont = draw.CreateFont("Tahoma", 60);
 local function OnDraw()
     draw.SetFont(debugFont);
     if lua_checkbox:GetValue() then
-        draw.Text(200, 200, "Checkbox is checked") ;
+        draw.Text(200, 200, "Checkbox is checked");
     end
     draw.Text(200, 300, "Slider: " .. lua_slider:GetValue());
 end
