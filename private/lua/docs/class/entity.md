@@ -61,13 +61,13 @@
 
 ## Example
 ```lua
-local players = entities.FindByClass("CCSPlayer")
+local players = entities.FindByClass("CCSPlayer");
 
 for i = 1, #players do
-	local player = players[i]
+	local player = players[i];
 	if player:IsAlive() then
 		if player:GetTeamNumber() == 2
-			local ArmorValue = player:GetProp("m_ArmorValue")
+			local ArmorValue = player:GetProp("m_ArmorValue");
 		end
 	end
 end

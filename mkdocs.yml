@@ -34,7 +34,7 @@ nav:
                 - Entity: lua/docs/class/entity.md
                 - GameEvent: lua/docs/class/gameevent.md
                 - UserCmd: lua/docs/class/usercmd.md
-                - UserMessages: lua/docs/class/usermessages.md
+                - UserMessage: lua/docs/class/usermessage.md
             - Libraries:
                 - Callbacks:
                     - Register: lua/docs/library/callbacks/register.md
