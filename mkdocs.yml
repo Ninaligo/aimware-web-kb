@@ -29,7 +29,8 @@ nav:
                 - File: lua/docs/class/file.md
                 - Font: lua/docs/class/font.md
                 - GuiObject: coming-soon.md
-                - Socket: coming-soon.md
+                - Socket: lua/docs/class/socket.md
+                - Texture: lua/docs/class/texture.md
                 - Vector3: coming-soon.md
             - Libraries:
                 - Callbacks:
