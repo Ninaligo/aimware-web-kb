@@ -30,12 +30,12 @@ nav:
                 - Font: lua/docs/class/font.md
                 - GuiObject: coming-soon.md
                 - Socket: lua/docs/class/socket.md
+                - Texture: lua/docs/class/texture.md
+                - Vector3: lua/docs/class/vector3.md
                 - Entity: lua/docs/class/entity.md
                 - GameEvent: lua/docs/class/gameevent.md
                 - UserCmd: lua/docs/class/usercmd.md
                 - UserMessage: lua/docs/class/usermessage.md
-                - Texture: lua/docs/class/texture.md
-                - Vector3: lua/docs/class/vector3.md
             - Libraries:
                 - Entities: lua/docs/library/entities.md
                 - Input:
