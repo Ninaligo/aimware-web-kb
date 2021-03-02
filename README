@@ -12,6 +12,14 @@ DESCRIPTION
 The MkDocs files that compose the AIMWARE.net Knowledge Base.
 
 
+INSTALL
+=======
+- Download [python3](http://https://www.python.org/downloads/ "python3") 
+- Install pip `python -m pip`
+- Install mkdocs `pip install mkdocs`
+- Build project `mkdocs build`
+
+
 SERVING
 =======
 
@@ -19,3 +27,5 @@ For testing, you can serve the generated MkDocs files locally using the PHP
 built-in webserver.
 
 $ php -S localhost:8000 -t public/
+
+
