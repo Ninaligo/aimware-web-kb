@@ -14,10 +14,6 @@ This class has no fields.
 
 ## Example
 ```lua
-client.AllowListener("player_death");
-callbacks.Register("FireGameEvent", function(e)
-    if e:GetName() == "player_death"
-		local Enemy = entities.GetByUserID(e:GetInt("attacker"));
-    end
-end)
+file:Write("file.txt", "1000");
+local text = file:Read("file.text");
 ```
