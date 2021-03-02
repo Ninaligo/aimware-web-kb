@@ -36,6 +36,7 @@ nav:
                 - UserCmd: lua/docs/class/usercmd.md
                 - UserMessage: lua/docs/class/usermessage.md
             - Libraries:
+                - Entities: lua/docs/library/entities.md
                 - Callbacks:
                     - Register: lua/docs/library/callbacks/register.md
                     - Unregister: lua/docs/library/callbacks/unregister.md
