@@ -3,6 +3,7 @@ site_description: 'Knowledge Base for developers and customers.'
 site_author: 'AIMWARE'
 copyright: '© 2021 AIMWARE. All rights reserved.'
 repo_url: https://github.com/AMWRNET/aimware-web-kb
+edit_uri: edit/master/private/
 
 docs_dir: 'private'
 site_dir: 'public/kb'
