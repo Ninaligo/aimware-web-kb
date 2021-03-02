@@ -37,6 +37,13 @@ nav:
                 - UserMessage: lua/docs/class/usermessage.md
             - Libraries:
                 - Entities: lua/docs/library/entities.md
+                - Input:
+                    - GetMousePos: lua/docs/library/input/getmousepos.md
+                    - IsButtonDown: lua/docs/library/input/isbuttondown.md
+                    - IsButtonPressed: lua/docs/library/input/isbuttonpressed.md
+                    - IsButtonReleased: lua/docs/library/input/isbuttonreleased.md
+                    - GetMouseWheelDelta: lua/docs/library/input/getmousewheeldelta.md
+                    - Keylist: lua/docs/library/input/keylist.md
                 - Callbacks:
                     - Register: lua/docs/library/callbacks/register.md
                     - Unregister: lua/docs/library/callbacks/unregister.md
