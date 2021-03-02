@@ -36,6 +36,7 @@ nav:
                 - GameEvent: lua/docs/class/gameevent.md
                 - UserCmd: lua/docs/class/usercmd.md
                 - UserMessage: lua/docs/class/usermessage.md
+                - DrawModelContext: lua/docs/class/drawmodelcontext.md
             - Libraries:
                 - Entities: lua/docs/library/entities.md
                 - Input:
