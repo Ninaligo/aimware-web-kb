@@ -25,7 +25,7 @@
 
 ```SetProp(propName, value)``` Set the value of an prop. 
 
-```GetPropFloat( ...)``` Get the value of an prop as float. 
+```GetPropFloat(...)``` Get the value of an prop as float. 
 
 ```GetPropInt(...)``` Get the value of an prop as int. 
 
