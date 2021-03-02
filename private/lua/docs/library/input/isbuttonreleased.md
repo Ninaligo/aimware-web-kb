@@ -1,8 +1,9 @@
-Checks if an button is released by keycode
+# input.IsButtonReleased
+Checks if an button is released by keycode.
 
 ## Syntax
 ```
-input.IsButtonReleased(1);
+input.IsButtonReleased(keycode:int)
 ```
 
 ## Parameters
