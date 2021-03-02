@@ -1,0 +1,21 @@
+         __
+   __   /\_\    ___ ___   __  __  __     __     _ __    __
+ /'__`\ \/\ \ /' __` __`\/\ \/\ \/\ \  /'__`\  /\`'__\/'__`\
+/\ \L\.\_\ \ \/\ \/\ \/\ \ \ \_/ \_/ \/\ \L\.\_\ \ \//\  __/
+\ \__/.\_\\ \_\ \_\ \_\ \_\ \___x___/'\ \__/.\_\\ \_\\ \____\
+ \/__/\/_/ \/_/\/_/\/_/\/_/\/__//__/   \/__/\/_/ \/_/ \/____/
+  Copyright (c) 2021 NETSHARK SAGL
+
+DESCRIPTION
+===========
+
+The MkDocs files that compose the AIMWARE.net Knowledge Base.
+
+
+SERVING
+=======
+
+For testing, you can serve the generated MkDocs files locally using the PHP
+built-in webserver.
+
+$ php -S localhost:8000 -t public/

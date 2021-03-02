@@ -1,0 +1,100 @@
+site_name: 'Knowledge Base'
+site_description: 'Knowledge Base for developers and customers.'
+site_author: 'AIMWARE'
+copyright: '© 2021 AIMWARE. All rights reserved.'
+repo_url: https://github.com/AMWRNET/aimware-web-kb
+
+docs_dir: 'private'
+site_dir: 'public/kb'
+
+nav:
+    - Home: index.md
+
+    - Lua:
+        - Introduction: lua/introduction.md
+        - Load a script: lua/load-script.md
+        - Register a callback: lua/register-callbacks.md
+
+        - Documentation:
+            - Callbacks: lua/docs/callbacks.md
+            - Globals:
+                - GetScriptName: lua/docs/globals/getscriptname.md
+                - LoadScript: lua/docs/globals/loadscript.md
+                - UnloadScript: lua/docs/globals/unloadscript.md
+                - RunScript: lua/docs/globals/runscript.md
+                - Print: lua/docs/globals/print.md
+            - Classes:
+                - EspBuilder: coming-soon.md
+                - EulerAngles: lua/docs/class/eulerangles.md
+                - File: lua/docs/class/file.md
+                - Font: lua/docs/class/font.md
+                - GuiObject: coming-soon.md
+                - Socket: coming-soon.md
+                - Vector3: coming-soon.md
+            - Libraries:
+                - Callbacks:
+                    - Register: lua/docs/library/callbacks/register.md
+                    - Unregister: lua/docs/library/callbacks/unregister.md
+                - Draw:
+                    - Color: coming-soon.md
+                    - Line: coming-soon.md
+                    - FilledRect: coming-soon.md
+                    - OutlinedRect: coming-soon.md
+                    - RoundedRect: coming-soon.md
+                    - RoundedRectFill: coming-soon.md
+                    - ShadowRect: coming-soon.md
+                    - Triangle: coming-soon.md
+                    - FilledCircle: coming-soon.md
+                    - OutlinedCircle: coming-soon.md
+                    - GetTextSize: coming-soon.md
+                    - Text: coming-soon.md
+                    - TextShadow: coming-soon.md
+                    - GetScreenSize: coming-soon.md
+                    - CreateFont: coming-soon.md
+                    - AddFontResource: coming-soon.md
+                    - SetFont: coming-soon.md
+                    - CreateTexture: coming-soon.md
+                    - UpdateTexture: coming-soon.md
+                    - SetTexture: coming-soon.md
+                - File:
+                    - Open: coming-soon.md
+                    - Delete: coming-soon.md
+                    - Enumerate: coming-soon.md
+                - Gui:
+                    - Coming soon: coming-soon.md
+                - HTTP:
+                    - Get: lua/docs/library/http/get.md
+                - Network:
+                    - Socket: coming-soon.md
+                    - GetAddrInfo: coming-soon.md
+                    - GetNameInfo: coming-soon.md
+                - Vector:
+                    - Coming soon: coming-soon.md
+            - Engine Specific:
+                  - Source:
+                        - Callbacks: coming-soon.md
+                        - Classes:
+                            - Trace: lua/docs/engine/source/class/trace.md
+                        - Libraries:
+                            - Engine:
+                                - GetMapName: lua/docs/engine/source/library/engine/getmapname.md
+                                - GetPointsContent: lua/docs/engine/source/library/engine/getpointscontent.md
+                                - TraceHull: lua/docs/engine/source/library/engine/tracehull.md
+                                - TraceLine: lua/docs/engine/source/library/engine/traceline.md
+        - Examples: lua/examples.md
+
+theme:
+    name: material
+    favicon: 'https://aimware.net/favicon.ico'
+    palette:
+        scheme: slate
+        primary: red
+        accent: red
+
+plugins:
+    - search
+
+markdown_extensions:
+    - admonition
+    - pymdownx.highlight
+    - pymdownx.superfences
