@@ -1,9 +1,16 @@
+# input.GetMouseWheelDelta
 Returns the accumulated mouse scroll value
 
 ## Syntax
 ```
-input.GetMouseWheelDelta();
+number input.GetMouseWheelDelta()
 ```
+
+## Parameters
+This function has no parameters.
+
+## Return value
+This function return the accumulated mouse scroll.
 
 ## Example
 ```lua
