@@ -15,7 +15,7 @@ The MkDocs files that compose the AIMWARE.net Knowledge Base.
 INSTALL
 =======
 - Install Python 3
-- python -m pip install mkdocs (iirc)
+- python -m pip install mkdocs
 - python -m pip install mkdocs-material
 - mkdocs build
 
