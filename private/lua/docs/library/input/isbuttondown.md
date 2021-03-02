@@ -1,8 +1,9 @@
+# input.IsButtonDown
 Checks if an button is down by keycode
 
 ## Syntax
 ```
-input.IsButtonDown(1)
+input.IsButtonDown(keycode:int)
 ```
 
 ## Parameters
