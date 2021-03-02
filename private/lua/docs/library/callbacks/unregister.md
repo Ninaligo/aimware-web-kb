@@ -13,3 +13,8 @@ callbacks.Unregister(id:string, unique:string)
 
 ## Return value
 This function has no return value.
+
+## Example
+```lua
+callbacks.Unregister("Draw", "Unique");
+```

@@ -18,3 +18,14 @@ callbacks.Register(id:string, function)
 
 ## Return value
 This function has no return value.
+
+## Example
+```lua
+callbacks.Register("Draw", "Unique" function()
+	print("Draw Callback");
+end)
+
+callbacks.Register("Draw", function()
+	print("Draw Callback");
+end)
+```
