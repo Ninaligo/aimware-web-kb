@@ -14,7 +14,7 @@ The MkDocs files that compose the AIMWARE.net Knowledge Base.
 
 INSTALL
 =======
-- Download [python3](http://https://www.python.org/downloads/ "python3") 
+- Download [python3](http://https://www.python.org/downloads/ "python3") [/python3]
 - Install pip `python -m pip`
 - Install mkdocs `pip install mkdocs`
 - Build project `mkdocs build`
