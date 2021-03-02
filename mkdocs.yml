@@ -36,6 +36,11 @@ nav:
                 - Callbacks:
                     - Register: lua/docs/library/callbacks/register.md
                     - Unregister: lua/docs/library/callbacks/unregister.md
+                - Common:
+                    - Time: lua/docs/library/common/time.md
+                    - DecodePNG: lua/docs/library/common/decodepng.md
+                    - DecodeJPEG: lua/docs/library/common/decodejpeg.md
+                    - RasterizeSVG: lua/docs/library/common/rasterizesvg.md
                 - Draw:
                     - Color: coming-soon.md
                     - Line: coming-soon.md
