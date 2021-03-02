@@ -1,3 +1,8 @@
+# Class: UserMessage
+
+## Fields
+This class has no fields.
+
 ## Functions
 ```GetID()``` Get the id of an message.
 

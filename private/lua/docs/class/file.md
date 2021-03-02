@@ -11,3 +11,13 @@ This class has no fields.
 ```int Size()``` Get the file size.
 
 ```Close()``` Close the handle.
+
+## Example
+```lua
+client.AllowListener("player_death");
+callbacks.Register("FireGameEvent", function(e)
+    if e:GetName() == "player_death"
+		local Enemy = entities.GetByUserID(e:GetInt("attacker"));
+    end
+end)
+```

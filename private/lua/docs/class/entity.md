@@ -1,3 +1,8 @@
+# Class: Entity
+
+## Fields
+This class has no fields.
+
 ## Functions
 ```GetName()``` Get the name of the entity.
 
