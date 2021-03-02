@@ -29,7 +29,6 @@ nav:
                 - File: lua/docs/class/file.md
                 - Font: lua/docs/class/font.md
                 - GuiObject: coming-soon.md
-                - Socket: lua/docs/class/socket.md
                 - Entity: lua/docs/class/entity.md
                 - GameEvent: lua/docs/class/gameevent.md
                 - UserCmd: lua/docs/class/usercmd.md
