@@ -14,11 +14,10 @@ The MkDocs files that compose the AIMWARE.net Knowledge Base.
 
 INSTALL
 =======
-- Download [python3](http://https://www.python.org/downloads/ "python3") [/python3]
-- Install pip `python -m pip`
-- Install mkdocs `pip install mkdocs`
-- Build project `mkdocs build`
-
+- Install Python 3
+- python -m pip install mkdocs
+- python -m pip install mkdocs-material
+- mkdocs build
 
 SERVING
 =======
