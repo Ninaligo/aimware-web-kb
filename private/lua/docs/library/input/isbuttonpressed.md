@@ -1,8 +1,9 @@
+# input.IsButtonPressed
 Checks if an button is pressed by keycode
 
 ## Syntax
 ```
-input.IsButtonPressed(2);
+input.IsButtonPressed(keycode:int)
 ```
 
 ## Parameters
