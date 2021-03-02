@@ -15,7 +15,7 @@
 
 ```number: upmove```
 
-```integer (bits): buttons```
+```integer: (bits): buttons```
 
 ```integer: impulse```
 
