@@ -12,7 +12,7 @@ input.IsButtonReleased(keycode:int)
 ## Example
 ```lua
 if input.IsButtonReleased(1) then
-	print("Left click is down!");
+	print("Left click is released!");
 end
 ```
 

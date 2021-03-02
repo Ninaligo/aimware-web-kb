@@ -12,7 +12,7 @@ input.IsButtonPressed(keycode:int)
 ## Example
 ```lua
 if input.IsButtonPressed(2) then
-	print("Right click is down!");
+	print("Right click is pressed!");
 end
 ```
 
