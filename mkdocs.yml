@@ -29,7 +29,7 @@ nav:
                 - EulerAngles: lua/docs/class/eulerangles.md
                 - File: lua/docs/class/file.md
                 - Font: lua/docs/class/font.md
-                - GuiObject: coming-soon.md
+                - GuiObject: lua/docs/class/guiobject.md
                 - Socket: lua/docs/class/socket.md
                 - Texture: lua/docs/class/texture.md
                 - Vector3: lua/docs/class/vector3.md
