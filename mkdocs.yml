@@ -57,7 +57,7 @@ nav:
                     - RasterizeSVG: lua/docs/library/common/rasterizesvg.md
                 - Draw:
                     - Color: lua/docs/library/draw/color.md
-                    - Line: coming-soon.md
+                    - Line: lua/docs/library/draw/line.md
                     - FilledRect: coming-soon.md
                     - OutlinedRect: coming-soon.md
                     - RoundedRect: coming-soon.md
