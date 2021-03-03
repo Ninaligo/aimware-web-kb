@@ -77,7 +77,7 @@ nav:
                     - UpdateTexture: coming-soon.md
                     - SetTexture: coming-soon.md
                 - File:
-                    - Open: coming-soon.md
+                    - Open: lua/docs/library/file/open.md
                     - Delete: coming-soon.md
                     - Enumerate: coming-soon.md
                 - Gui:
