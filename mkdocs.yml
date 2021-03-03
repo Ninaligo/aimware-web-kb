@@ -70,7 +70,7 @@ nav:
                     - Text: lua/docs/library/draw/text.md
                     - TextShadow: lua/docs/library/draw/textshadow.md
                     - GetScreenSize: lua/docs/library/draw/getscreensize.md
-                    - CreateFont: coming-soon.md
+                    - CreateFont: lua/docs/library/draw/createfont.md
                     - AddFontResource: coming-soon.md
                     - SetFont: coming-soon.md
                     - CreateTexture: coming-soon.md
