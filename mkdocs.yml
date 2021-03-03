@@ -67,7 +67,7 @@ nav:
                     - FilledCircle: lua/docs/library/draw/filledcircle.md
                     - OutlinedCircle: lua/docs/library/draw/outlinedcircle.md
                     - GetTextSize: lua/docs/library/draw/gettextsize.md
-                    - Text: coming-soon.md
+                    - Text: lua/docs/library/draw/text.md
                     - TextShadow: coming-soon.md
                     - GetScreenSize: coming-soon.md
                     - CreateFont: coming-soon.md
