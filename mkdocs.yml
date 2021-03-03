@@ -59,7 +59,7 @@ nav:
                     - Color: lua/docs/library/draw/color.md
                     - Line: lua/docs/library/draw/line.md
                     - FilledRect: lua/docs/library/draw/filledrect.md
-                    - OutlinedRect: coming-soon.md
+                    - OutlinedRect: lua/docs/library/draw/outlinedrect.md
                     - RoundedRect: coming-soon.md
                     - RoundedRectFill: coming-soon.md
                     - ShadowRect: coming-soon.md
