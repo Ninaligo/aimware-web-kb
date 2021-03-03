@@ -6,19 +6,19 @@ This class has no fields.
 
 ## Functions
 
-```Color(r, g, b, a)```
+```Color(number:red, number:green, number:blue, number:alpha)``` Color of espbuilder. Alpha is transparency, rgb is color.
 
 ```GetEntity()```
 
 ```GetRect()```
 
-```AddTextTop(text)```
+```AddTextTop(string:text)```
 
-```AddTextBottom(text)```
+```AddTextBottom(string:text)```
 
-```AddTextLeft(text)```
+```AddTextLeft(string:text)```
 
-```AddTextRight(text)```
+```AddTextRight(string:text)```
 
 ```AddBarTop(percentage)```
 
