@@ -41,25 +41,25 @@
 ## Functions
 ```SetViewAngles(pitch, yaw, roll)``` Lets you set the pitch, yaw, and roll values.
 
-```GetViewAngles()``` Get the pitch, yaw, and roll values.
+```GetViewAngles()``` Return the pitch, yaw, and roll values.
 
 ```SetSendPacket(sendpacket)``` Send a packet.
 
 ```SetButtons(buttons)``` Set the buttons of user.
 
-```GetButtons()``` Returns the set buttons of user.
+```GetButtons()``` Return the set buttons of user.
 
 ```SetForwardMove(float:number)``` Move forward, accepts float value.
 
-```GetForwardMove()``` Get the amount of forward move.
+```GetForwardMove()``` Return the amount of forward move.
 
 ```SetSideMove(float:number)``` Move to the side, accepts float value.
 
-```GetSideMove()``` Get the amount of side move.
+```GetSideMove()``` Return the amount of side move.
 
 ```SetUpMove(float:number)``` Move up, accepts float value.
 
-```GetUpMove()``` Get the amount of up move.
+```GetUpMove()``` Return the amount of up move.
 
 ## Example
 ```lua
