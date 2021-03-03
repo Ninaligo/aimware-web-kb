@@ -2,7 +2,7 @@
 
 ## Syntax
 ```lua
-gui.Listbox(parent:object, name:string)
+gui.Multibox(parent:object, name:string)
 ```
 
 ## Parameters
@@ -11,7 +11,7 @@ gui.Listbox(parent:object, name:string)
 ```name``` Varname of this object.
 
 ## Return value
-This does not return a value
+This function returns the created GUI object.
 
 ## Example
 ```lua
