@@ -1,5 +1,6 @@
 # Class: UserCmd
 
+
 ## Fields
 ```integer: commad_number```
 
@@ -15,7 +16,7 @@
 
 ```number: upmove```
 
-```integer: (bits): buttons```
+```integer: buttons```
 
 ```integer: impulse```
 
@@ -61,6 +62,7 @@
 
 ```GetUpMove()``` Return the amount of up move.
 
+
 ## Example
 ```lua
 --Executes button on keycode 32 which is "V"
@@ -70,3 +72,8 @@ cmd:SetButtons(32);
 ## Keylist
 For more information about key codes for setting buttons
 [Keylist](keylist.md)
+
+
+
+
+
