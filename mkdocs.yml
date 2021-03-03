@@ -25,11 +25,11 @@ nav:
                 - RunScript: lua/docs/globals/runscript.md
                 - Print: lua/docs/globals/print.md
             - Classes:
-                - EspBuilder: coming-soon.md
+                - EspBuilder: lua/docs/class/espbuilder.md
                 - EulerAngles: lua/docs/class/eulerangles.md
                 - File: lua/docs/class/file.md
                 - Font: lua/docs/class/font.md
-                - GuiObject: coming-soon.md
+                - GuiObject: lua/docs/class/guiobject.md
                 - Socket: lua/docs/class/socket.md
                 - Texture: lua/docs/class/texture.md
                 - Vector3: lua/docs/class/vector3.md
@@ -38,7 +38,6 @@ nav:
                 - UserCmd: lua/docs/class/usercmd.md
                 - UserMessage: lua/docs/class/usermessage.md
                 - DrawModelContext: lua/docs/class/drawmodelcontext.md
-                - Trace: lua/docs/class/trace.md
             - Libraries:
                 - Entities: lua/docs/library/entities.md
                 - Input:
@@ -57,30 +56,30 @@ nav:
                     - DecodeJPEG: lua/docs/library/common/decodejpeg.md
                     - RasterizeSVG: lua/docs/library/common/rasterizesvg.md
                 - Draw:
-                    - Color: coming-soon.md
-                    - Line: coming-soon.md
-                    - FilledRect: coming-soon.md
-                    - OutlinedRect: coming-soon.md
-                    - RoundedRect: coming-soon.md
-                    - RoundedRectFill: coming-soon.md
-                    - ShadowRect: coming-soon.md
-                    - Triangle: coming-soon.md
-                    - FilledCircle: coming-soon.md
-                    - OutlinedCircle: coming-soon.md
-                    - GetTextSize: coming-soon.md
-                    - Text: coming-soon.md
-                    - TextShadow: coming-soon.md
-                    - GetScreenSize: coming-soon.md
-                    - CreateFont: coming-soon.md
-                    - AddFontResource: coming-soon.md
-                    - SetFont: coming-soon.md
-                    - CreateTexture: coming-soon.md
-                    - UpdateTexture: coming-soon.md
-                    - SetTexture: coming-soon.md
+                    - Color: lua/docs/library/draw/color.md
+                    - Line: lua/docs/library/draw/line.md
+                    - FilledRect: lua/docs/library/draw/filledrect.md
+                    - OutlinedRect: lua/docs/library/draw/outlinedrect.md
+                    - RoundedRect: lua/docs/library/draw/roundedrect.md
+                    - RoundedRectFill: lua/docs/library/draw/roundedrectfill.md
+                    - ShadowRect: lua/docs/library/draw/shadowrect.md
+                    - Triangle: lua/docs/library/draw/triangle.md
+                    - FilledCircle: lua/docs/library/draw/filledcircle.md
+                    - OutlinedCircle: lua/docs/library/draw/outlinedcircle.md
+                    - GetTextSize: lua/docs/library/draw/gettextsize.md
+                    - Text: lua/docs/library/draw/text.md
+                    - TextShadow: lua/docs/library/draw/textshadow.md
+                    - GetScreenSize: lua/docs/library/draw/getscreensize.md
+                    - CreateFont: lua/docs/library/draw/createfont.md
+                    - AddFontResource: lua/docs/library/draw/addfontresource.md
+                    - SetFont: lua/docs/library/draw/setfont.md
+                    - CreateTexture: lua/docs/library/draw/createtexture.md
+                    - UpdateTexture: lua/docs/library/draw/updatetexture.md
+                    - SetTexture: lua/docs/library/draw/settexture.md
                 - File:
-                    - Open: coming-soon.md
-                    - Delete: coming-soon.md
-                    - Enumerate: coming-soon.md
+                    - Open: lua/docs/library/file/open.md
+                    - Delete: lua/docs/library/file/delete.md
+                    - Enumerate: lua/docs/library/file/enumerate.md
                 - Gui:
                     - Button: lua/docs/library/gui/button.md
                     - Checkbox: lua/docs/library/gui/checkbox.md

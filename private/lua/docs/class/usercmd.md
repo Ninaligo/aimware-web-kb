@@ -1,5 +1,6 @@
 # Class: UserCmd
 
+
 ## Fields
 ```integer: commad_number```
 
@@ -15,7 +16,7 @@
 
 ```number: upmove```
 
-```integer: (bits): buttons```
+```integer: buttons```
 
 ```integer: impulse```
 
@@ -41,25 +42,26 @@
 ## Functions
 ```SetViewAngles(pitch, yaw, roll)``` Lets you set the pitch, yaw, and roll values.
 
-```GetViewAngles()``` Get the pitch, yaw, and roll values.
+```GetViewAngles()``` Return the pitch, yaw, and roll values.
 
 ```SetSendPacket(sendpacket)``` Send a packet.
 
 ```SetButtons(buttons)``` Set the buttons of user.
 
-```GetButtons()``` Get the set buttons of user.
+```GetButtons()``` Return the set buttons of user.
 
-```SetForwardMove(float factor)``` Move forward, accepts float value.
+```SetForwardMove(float:number)``` Move forward, accepts float value.
 
-```GetForwardMove()``` Get the amount of forward move.
+```GetForwardMove()``` Return the amount of forward move.
 
-```SetSideMove(float factor)``` Move to the side, accepts float value.
+```SetSideMove(float:number)``` Move to the side, accepts float value.
 
-```GetSideMove()``` Get the amount of side move.
+```GetSideMove()``` Return the amount of side move.
 
-```SetUpMove(float factor)``` Move up, accepts float value.
+```SetUpMove(float:number)``` Move up, accepts float value.
 
-```GetUpMove()``` Get the amount of up move.
+```GetUpMove()``` Return the amount of up move.
+
 
 ## Example
 ```lua
@@ -70,3 +72,8 @@ cmd:SetButtons(32);
 ## Keylist
 For more information about key codes for setting buttons
 [Keylist](keylist.md)
+
+
+
+
+
