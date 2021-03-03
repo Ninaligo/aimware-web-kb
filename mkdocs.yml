@@ -82,7 +82,21 @@ nav:
                     - Delete: coming-soon.md
                     - Enumerate: coming-soon.md
                 - Gui:
-                    - Coming soon: coming-soon.md
+                    - Button: lua/docs/library/gui/button.md
+                    - Checkbox: lua/docs/library/gui/checkbox.md
+                    - Color Picker: lua/docs/library/gui/colorpicker.md
+                    - Combobox: lua/docs/library/gui/combobox.md
+                    - Command: lua/docs/library/gui/command.md
+                    - Custom: lua/docs/library/gui/custom.md
+                    - Editbox: lua/docs/library/gui/editbox.md
+                    - Groupbox: lua/docs/library/gui/groupbox.md
+                    - Keybox: lua/docs/library/gui/keybox.md
+                    - Listbox: lua/docs/library/gui/listbox.md
+                    - Multibox: lua/docs/library/gui/multibox.md
+                    - Slider: lua/docs/library/gui/slider.md
+                    - Tab: lua/docs/library/gui/tab.md
+                    - Text: lua/docs/library/gui/text.md
+                    - Window: lua/docs/library/gui/window.md
                 - HTTP:
                     - Get: lua/docs/library/http/get.md
                 - Network:

@@ -42,7 +42,7 @@ callbacks.Register("Draw", function()
 end);
 ```
 
-Simple combo box listener
+Simple combobox listener
 ```lua
 local ecb_misc = gui.Reference("MISC");
 local ecb_gui = gui.Tab(ecb_misc, "ecb_gui", "Example Combobox");
@@ -62,7 +62,7 @@ local ecb_combobox_b = gui.Combobox(ecb_gui, "ecb_combobox_b", "Hmmm! Pretty Ite
 
 
 -- We are gonna keep track of the last value
-local ecb_value_a = ecb_combobox_a:GetValue();
+local ecb_value_b = ecb_combobox_b:GetValue();
 
 
 -- Return selected value
@@ -104,5 +104,5 @@ local items = {"value1", "value2"};
 ecb_combobox_a:SetOptions(unpack(items));
 
 
--- Adding items from a prior combo box is harder and requires having an array of the items you had in it. In this cause you would just add to an array and use unpack(items) like shown above.
+-- Adding items from a prior combobox is harder and requires having an array of the items you had in it. In this cause you would just add to an array and use unpack(items) like shown above.
 ```

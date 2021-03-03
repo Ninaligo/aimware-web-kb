@@ -2,7 +2,7 @@
 
 ## Syntax
 ```
-gui.Groupbox(parent:string, name:string, x:int, y:int, w:int, h:int)
+gui.Groupbox(parent:string, name:string, x:int, y:int, width:int, height:int)
 ```
 
 ## Parameters
@@ -14,9 +14,9 @@ gui.Groupbox(parent:string, name:string, x:int, y:int, w:int, h:int)
 
 ```y``` Integer of the vertical axis. (Optional)
 
-```w``` Integer of the width. (Optional)
+```width``` Integer of the width. (Optional)
 
-```h``` Integer of the height. (Optional)
+```height``` Integer of the height. (Optional)
 
 ## Return value
 This does not return a value.
