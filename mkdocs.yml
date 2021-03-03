@@ -3,6 +3,7 @@ site_description: 'Knowledge Base for developers and customers.'
 site_author: 'AIMWARE'
 copyright: '© 2021 AIMWARE. All rights reserved.'
 repo_url: https://github.com/AMWRNET/aimware-web-kb
+edit_uri: edit/master/private/
 
 docs_dir: 'private'
 site_dir: 'public/kb'
@@ -50,6 +51,11 @@ nav:
                 - Callbacks:
                     - Register: lua/docs/library/callbacks/register.md
                     - Unregister: lua/docs/library/callbacks/unregister.md
+                - Common:
+                    - Time: lua/docs/library/common/time.md
+                    - DecodePNG: lua/docs/library/common/decodepng.md
+                    - DecodeJPEG: lua/docs/library/common/decodejpeg.md
+                    - RasterizeSVG: lua/docs/library/common/rasterizesvg.md
                 - Draw:
                     - Color: coming-soon.md
                     - Line: coming-soon.md
