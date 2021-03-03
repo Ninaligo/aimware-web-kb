@@ -59,7 +59,7 @@ local function CHAT_KillSay(Event)
 
        if (INDEX_Attacker == ME and INDEX_Victim ~= ME) then
 
-           client.ChatSay(" " .. tostring( Kill_String ) .. " " .. NAME_Victim);
+           client.ChatSay(" " .. tostring(Kill_String) .. " " .. NAME_Victim);
 
        elseif (INDEX_Victim == ME and INDEX_Attacker ~= ME) then
 
