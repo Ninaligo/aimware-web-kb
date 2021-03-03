@@ -1,4 +1,4 @@
-# gui.Button
+# gui.Slider
 
 ## Syntax
 ```
