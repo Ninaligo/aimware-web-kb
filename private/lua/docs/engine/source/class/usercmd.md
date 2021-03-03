@@ -65,7 +65,7 @@
 
 ## Example
 ```lua
---Executes button on keycode 32 which is "V"
+--Executes button on keycode 32 which is "V".
 cmd:SetButtons(32);
 ```
 
