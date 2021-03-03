@@ -55,6 +55,7 @@ callbacks.Register("Draw", function()
 	end
 end)
 
+
 function ekb_keybox_Changed()
 	print(ekb_value);
 end
@@ -66,4 +67,4 @@ ekb_keybox:SetValue(188) -- This will set the key to a comma
 ```
 
 ## Keylist
-For more information about [key codes](\lua\docs\library\input\keylist.md).
+For more information about [key codes](\lua\docs\library\input\keylist\).
