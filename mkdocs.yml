@@ -75,7 +75,7 @@ nav:
                     - SetFont: lua/docs/library/draw/setfont.md
                     - CreateTexture: lua/docs/library/draw/createtexture.md
                     - UpdateTexture: lua/docs/library/draw/updatetexture.md
-                    - SetTexture: coming-soon.md
+                    - SetTexture: lua/docs/library/draw/settexture.md
                 - File:
                     - Open: lua/docs/library/file/open.md
                     - Delete: lua/docs/library/file/delete.md
