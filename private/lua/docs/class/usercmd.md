@@ -47,17 +47,17 @@
 
 ```SetButtons(buttons)``` Set the buttons of user.
 
-```GetButtons()``` Get the set buttons of user.
+```GetButtons()``` Get the set buttons of user. Returns the set buttons of user.
 
-```SetForwardMove(float factor)``` Move forward, accepts float value.
+```SetForwardMove(float:number)``` Move forward, accepts float value.
 
 ```GetForwardMove()``` Get the amount of forward move.
 
-```SetSideMove(float factor)``` Move to the side, accepts float value.
+```SetSideMove(float:number)``` Move to the side, accepts float value.
 
 ```GetSideMove()``` Get the amount of side move.
 
-```SetUpMove(float factor)``` Move up, accepts float value.
+```SetUpMove(float:number)``` Move up, accepts float value.
 
 ```GetUpMove()``` Get the amount of up move.
 
