@@ -64,7 +64,7 @@ nav:
                     - RoundedRectFill: lua/docs/library/draw/roundedrectfill.md
                     - ShadowRect: lua/docs/library/draw/shadowrect.md
                     - Triangle: lua/docs/library/draw/triangle.md
-                    - FilledCircle: coming-soon.md
+                    - FilledCircle: lua/docs/library/draw/filledcircle.md
                     - OutlinedCircle: coming-soon.md
                     - GetTextSize: coming-soon.md
                     - Text: coming-soon.md
