@@ -16,4 +16,6 @@ Replace material used to draw the model. Material can be found or created via ma
 
 Redraws the model. Can be used to achieve various effects with different materials.
 
+```SetDrawOriginal()```
 
+Set if original draw function should be called.

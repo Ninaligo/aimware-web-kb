@@ -25,7 +25,6 @@ nav:
                 - RunScript: lua/docs/globals/runscript.md
                 - Print: lua/docs/globals/print.md
             - Classes:
-                - EspBuilder: lua/docs/class/espbuilder.md
                 - EulerAngles: lua/docs/class/eulerangles.md
                 - File: lua/docs/class/file.md
                 - Font: lua/docs/class/font.md
@@ -33,11 +32,6 @@ nav:
                 - Socket: lua/docs/class/socket.md
                 - Texture: lua/docs/class/texture.md
                 - Vector3: lua/docs/class/vector3.md
-                - Entity: lua/docs/class/entity.md
-                - GameEvent: lua/docs/class/gameevent.md
-                - UserCmd: lua/docs/class/usercmd.md
-                - UserMessage: lua/docs/class/usermessage.md
-                - DrawModelContext: lua/docs/class/drawmodelcontext.md
             - Libraries:
                 - Entities: lua/docs/library/entities.md
                 - Input:
@@ -81,7 +75,21 @@ nav:
                     - Delete: lua/docs/library/file/delete.md
                     - Enumerate: lua/docs/library/file/enumerate.md
                 - Gui:
-                    - Coming soon: coming-soon.md
+                    - Button: lua/docs/library/gui/button.md
+                    - Checkbox: lua/docs/library/gui/checkbox.md
+                    - Color Picker: lua/docs/library/gui/colorpicker.md
+                    - Combobox: lua/docs/library/gui/combobox.md
+                    - Command: lua/docs/library/gui/command.md
+                    - Custom: lua/docs/library/gui/custom.md
+                    - Editbox: lua/docs/library/gui/editbox.md
+                    - Groupbox: lua/docs/library/gui/groupbox.md
+                    - Keybox: lua/docs/library/gui/keybox.md
+                    - Listbox: lua/docs/library/gui/listbox.md
+                    - Multibox: lua/docs/library/gui/multibox.md
+                    - Slider: lua/docs/library/gui/slider.md
+                    - Tab: lua/docs/library/gui/tab.md
+                    - Text: lua/docs/library/gui/text.md
+                    - Window: lua/docs/library/gui/window.md
                 - HTTP:
                     - Get: lua/docs/library/http/get.md
                 - Network:
@@ -92,9 +100,16 @@ nav:
                     - Coming soon: coming-soon.md
             - Engine Specific:
                   - Source:
-                        - Callbacks: coming-soon.md
+                        - Callbacks: lua/docs/engine/source/callbacks.md
                         - Classes:
+                            - DrawModelContext: lua/docs/engine/source/class/drawmodelcontext.md
+                            - EspBuilder: lua/docs/engine/source/class/espbuilder.md
+                            - Entity: lua/docs/engine/source/class/entity.md
+                            - GameEvent: lua/docs/engine/source/class/gameevent.md
+                            - StringCmd: lua/docs/engine/source/class/stringcmd.md
                             - Trace: lua/docs/engine/source/class/trace.md
+                            - UserCmd: lua/docs/engine/source/class/usercmd.md
+                            - UserMessage: lua/docs/engine/source/class/usermessage.md
                         - Libraries:
                             - Engine:
                                 - GetMapName: lua/docs/engine/source/library/engine/getmapname.md

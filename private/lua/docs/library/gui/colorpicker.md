@@ -2,7 +2,7 @@
 
 ## Syntax
 ```lua
-gui.ColorPicker(parent:object, varname:string, name:string, r:0-255, g:0-255, b:0-255, a:0-255)
+gui.ColorPicker(parent:object, varname:string, name:string, red:0-255, green:0-255, blue:0-255, alpha:0-255)
 ```
 
 ## Parameters
@@ -12,13 +12,13 @@ gui.ColorPicker(parent:object, varname:string, name:string, r:0-255, g:0-255, b:
 
 ```name``` Label of object.
 
-```r``` Value of red.
+```red``` Value of red.
 
-```g``` Value of green.
+```green``` Value of green.
 
-```b``` Value of blue.
+```blue``` Value of blue.
 
-```a``` Value of alpha.
+```alpha``` Value of alpha.
 
 ## Return value
 Return 4 values between 0 and 255. They are refered to as RGBA in that order.

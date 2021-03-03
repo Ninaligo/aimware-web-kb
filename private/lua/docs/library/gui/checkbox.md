@@ -51,7 +51,7 @@ local ecb_value = ecb_checkbox:GetValue();
 
 
 -- Return Example
-callbacks.Register("Draw",function() 
+callbacks.Register("Draw",function()
     -- Now to check if the text has changed
     if ecb_value ~= ecb_checkbox:GetValue() then
         ecb_value = ecb_checkbox:GetValue()
