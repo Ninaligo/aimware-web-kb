@@ -39,7 +39,7 @@ This class has no fields.
 
 ## Example
 ```lua
-local Tab = gui.Tab(gui_Reference("Visuals"), "ScriptTabValue", "MyScript");
+local Tab = gui.Tab(gui.Reference("Visuals"), "ScriptTabValue", "MyScript");
 local Groupbox = gui.Groupbox(tab, "Groupbox", 16, 16);
 
 local Value, Name = Groupbox:GetValue(), Groupbox:GetName();
