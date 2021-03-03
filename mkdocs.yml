@@ -56,7 +56,7 @@ nav:
                     - DecodeJPEG: lua/docs/library/common/decodejpeg.md
                     - RasterizeSVG: lua/docs/library/common/rasterizesvg.md
                 - Draw:
-                    - Color: coming-soon.md
+                    - Color: lua/docs/library/draw/color.md
                     - Line: coming-soon.md
                     - FilledRect: coming-soon.md
                     - OutlinedRect: coming-soon.md
