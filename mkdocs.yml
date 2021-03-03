@@ -79,7 +79,7 @@ nav:
                 - File:
                     - Open: lua/docs/library/file/open.md
                     - Delete: lua/docs/library/file/delete.md
-                    - Enumerate: coming-soon.md
+                    - Enumerate: lua/docs/library/file/enumerate.md
                 - Gui:
                     - Coming soon: coming-soon.md
                 - HTTP:
