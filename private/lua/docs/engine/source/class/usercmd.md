@@ -71,4 +71,4 @@ cmd:SetButtons(32);
 
 ## Keylist
 For more information about key codes for setting buttons
-[Keylist](/kb/lua/docs/library/input/keylist/)
+[Keylist](/kb/lua/docs/library/input/keylist/).
