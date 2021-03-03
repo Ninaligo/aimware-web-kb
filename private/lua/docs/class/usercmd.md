@@ -47,7 +47,7 @@
 
 ```SetButtons(buttons)``` Set the buttons of user.
 
-```GetButtons()``` Get the set buttons of user. Returns the set buttons of user.
+```GetButtons()``` Returns the set buttons of user.
 
 ```SetForwardMove(float:number)``` Move forward, accepts float value.
 
