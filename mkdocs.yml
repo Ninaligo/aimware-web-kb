@@ -25,7 +25,7 @@ nav:
                 - RunScript: lua/docs/globals/runscript.md
                 - Print: lua/docs/globals/print.md
             - Classes:
-                - EspBuilder: coming-soon.md
+                - EspBuilder: lua/docs/class/espbuilder.md
                 - EulerAngles: lua/docs/class/eulerangles.md
                 - File: lua/docs/class/file.md
                 - Font: lua/docs/class/font.md
