@@ -1,4 +1,5 @@
 # gui.Command
+Execute a command.
 
 ## Syntax
 ```
@@ -9,7 +10,7 @@ gui.Command(command:string)
 ```command``` String that is use to call a command.
 
 ## Return value
-This does not return a value.
+This function has no return value.
 
 ## Example
 This command will clear the chat
