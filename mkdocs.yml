@@ -61,7 +61,7 @@ nav:
                     - FilledRect: lua/docs/library/draw/filledrect.md
                     - OutlinedRect: lua/docs/library/draw/outlinedrect.md
                     - RoundedRect: lua/docs/library/draw/roundedrect.md
-                    - RoundedRectFill: coming-soon.md
+                    - RoundedRectFill: lua/docs/library/draw/roundedrectfill.md
                     - ShadowRect: coming-soon.md
                     - Triangle: coming-soon.md
                     - FilledCircle: coming-soon.md
