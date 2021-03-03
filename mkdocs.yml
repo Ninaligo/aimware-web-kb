@@ -102,10 +102,11 @@ nav:
                   - Source:
                         - Callbacks: lua/docs/engine/source/callbacks.md
                         - Classes:
-                            - DrawModelContext: lua/docs/engine/source/class/edrawmodelcontext.md
+                            - DrawModelContext: lua/docs/engine/source/class/drawmodelcontext.md
                             - EspBuilder: lua/docs/engine/source/class/espbuilder.md
                             - Entity: lua/docs/engine/source/class/entity.md
                             - GameEvent: lua/docs/engine/source/class/gameevent.md
+                            - StringCmd: lua/docs/engine/source/class/stringcmd.md
                             - Trace: lua/docs/engine/source/class/trace.md
                             - UserCmd: lua/docs/engine/source/class/usercmd.md
                             - UserMessage: lua/docs/engine/source/class/usermessage.md

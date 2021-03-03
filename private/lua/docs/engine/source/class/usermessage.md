@@ -4,13 +4,13 @@
 This class has no fields.
 
 ## Functions
-```GetID()``` Get the id of an message.
+```integer GetID()``` Get the id of an message.
 
-```GetInt(index, repeatedIndex)```  Get the int from an message.
+```integer GetInt(index, repeatedIndex)```  Get the int from an message.
 
-```GetFloat(index, repeatedIndex)``` Get the float from an message.
+```number GetFloat(index, repeatedIndex)``` Get the float from an message.
 
-```GetString(index, repeatedIndex)``` Get the string from an message.
+```string GetString(index, repeatedIndex)``` Get the string from an message.
 
 ## Example
 ```lua
@@ -30,6 +30,6 @@ callbacks.Register("DispatchUserMessage", function()
         local name = client.GetPlayerNameByIndex(index);
 
         print(name .. " says: " .. message);
-    end  
+    end
 end);
 ```

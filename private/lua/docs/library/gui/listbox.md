@@ -74,8 +74,8 @@ callbacks.Register("Draw", function()
 		elb_value_a = elb_listbox_a:GetValue();
 		elb_listbox_a_Changed();
 	end
-	
-	
+
+
 	-- We are gonna do it again for the b value!
 	if elb_value_b ~= elb_listbox_b:GetValue() then
 		elb_value_b = elb_listbox_b:GetValue();

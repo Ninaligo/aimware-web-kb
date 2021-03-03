@@ -6,11 +6,11 @@ This class has no fields.
 ## Functions
 ```GetName()``` Get the name of the game event.
 
-```GetString(fieldName)``` Get the string from the game event.
+```string GetString(field:string)``` Get the string from the game event.
 
-```GetInt(fieldName)``` Get the int from the game event.
+```integer GetInt(field:string)``` Get the int from the game event.
 
-```GetFloat(fieldName)``` Get the float from the game event.
+```number GetFloat(field:string)``` Get the float from the game event.
 
 ## Example
 ```lua

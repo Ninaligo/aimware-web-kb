@@ -4,43 +4,43 @@
 This class has no fields.
 
 ## Functions
-```GetName()``` Get the name of the entity.
+```string GetName()``` Get the name of the entity.
 
 ```GetClass()``` Get the class of the entity.
 
-```GetIndex()``` Get the entity index.
+```integer GetIndex()``` Get the entity index.
 
-```GetTeamNumber()``` Get the entity team number.
+```integer GetTeamNumber()``` Get the entity team number.
 
-```GetAbsOrigin()``` Get the abs origin.
+```Vector3 GetAbsOrigin()``` Get the abs origin.
 
-```GetMins()``` Get mins of the entity.
+```Vector3 GetMins()``` Get mins of the entity.
 
-```GetMaxs()``` Get maxs of the entity.
+```Vector3 GetMaxs()``` Get maxs of the entity.
 
-```GetHealth()``` Get health of the entity.
+```integer GetHealth()``` Get health of the entity.
 
-```GetMaxHealth()``` Get max health of the entity.
+```integer GetMaxHealth()``` Get max health of the entity.
 
-```IsPlayer()``` Check if the entity is an player. 
+```boolean IsPlayer()``` Check if the entity is an player.
 
-```IsAlive()``` Check if the entity is alive. 
+```boolean IsAlive()``` Check if the entity is alive.
 
-```GetProp(propName)``` Get the value of an prop. 
+```GetProp(propName)``` Get the value of an prop.
 
-```SetProp(propName, value)``` Set the value of an prop. 
+```SetProp(propName, value)``` Set the value of an prop.
 
-```GetPropFloat(...)``` Get the value of an prop as float. 
+```number GetPropFloat(...)``` Get the value of an prop as float.
 
-```GetPropInt(...)``` Get the value of an prop as int. 
+```integer GetPropInt(...)``` Get the value of an prop as int.
 
-```GetPropBool(...)``` Get the value of an prop as bool. 
+```boolean GetPropBool(...)``` Get the value of an prop as bool.
 
-```GetPropString(...)``` Get the value of an prop as string. 
+```string GetPropString(...)``` Get the value of an prop as string.
 
-```GetPropVector(...)``` Get the value of an prop as vector. 
+```Vector3 GetPropVector(...)``` Get the value of an prop as vector.
 
-```GetPropEntity(...)``` Get the value of an prop as an entity. 
+```GetPropEntity(...)``` Get the value of an prop as an entity.
 
 ```SetPropFloat(number, ...)``` Set the value of an prop as float object.
 
@@ -56,13 +56,13 @@ This class has no fields.
 
 ```GetBonePosition(boneIndex)``` Get the bone position of the entity.
 
-```GetWeaponID()``` Get the weapon id from the entity.
+```integer GetWeaponID()``` Get the weapon id from the entity.
 
-```GetWeaponType()``` Get the weapon type from the entity.
+```integer GetWeaponType()``` Get the weapon type from the entity.
 
-```GetWeaponSpread()``` Get the weapon spread from the entity.
+```Vector3 GetWeaponSpread()``` Get the weapon spread from the entity.
 
-```GetWeaponInaccuracy()``` Get the weapon inaccuracy from the entity.
+```number GetWeaponInaccuracy()``` Get the weapon inaccuracy from the entity.
 
 ## Example
 ```lua
@@ -76,6 +76,4 @@ for i = 1, #players do
 		end
 	end
 end
-
 ```
-

@@ -28,7 +28,7 @@ local eeb_editbox = gui.Editbox(eeb_gui, "eeb_editbox", "This is the text above 
 
 
 -- Return Example
-callbacks.Register("Draw",function() 
+callbacks.Register("Draw",function()
     local eeb_value = eeb_editbox:GetValue();
     print(eeb_value);
 end);
@@ -50,7 +50,7 @@ local cur_text = eeb_editbox:GetValue();
 
 
 -- Return Example
-callbacks.Register("Draw",function() 
+callbacks.Register("Draw",function()
     -- Now to check if the text has changed
     if cur_text ~= eeb_editbox:GetValue() then
         cur_text = eeb_editbox:GetValue()

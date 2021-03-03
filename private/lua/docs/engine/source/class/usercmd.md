@@ -72,8 +72,3 @@ cmd:SetButtons(32);
 ## Keylist
 For more information about key codes for setting buttons
 [Keylist](keylist.md)
-
-
-
-
-

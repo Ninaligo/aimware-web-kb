@@ -38,4 +38,3 @@ local egb_groupbox_b = gui.Groupbox(egb_gui, "Wanna be a groupie? B", 319.5, 16,
 local egb_checkbox_a = gui.Checkbox(egb_groupbox_a, "egp_checkbox_a", "My checkbox groupie A", true);
 local egb_checkbox_b = gui.Checkbox(egb_groupbox_b, "egp_checkbox_b", "My checkbox groupie B", true);
 ```
-

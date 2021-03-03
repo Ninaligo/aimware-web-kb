@@ -72,8 +72,8 @@ callbacks.Register("Draw", function()
 		ecb_value_a = ecb_combobox_a:GetValue();
 		ecb_combobox_a_Changed();
 	end
-	
-	
+
+
 	-- We are gonna do it again for the b value!
 	if ecb_value_b ~= ecb_combobox_b:GetValue() then
 		ecb_value_b = ecb_combobox_b:GetValue();
