@@ -11,3 +11,9 @@ This class has no fields.
 ```int Size()``` Get the file size.
 
 ```Close()``` Close the handle.
+
+## Example
+```lua
+file:Write("file.txt", "1000");
+local text = file:Read("file.text");
+```
