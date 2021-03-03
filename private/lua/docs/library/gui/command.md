@@ -19,5 +19,5 @@ gui.Command("clear");
 
 This will load a script
 ```lua
-gui.Command("loadscript <scriptname>.lua");
+gui.Command("lua.load <scriptname>.lua");
 ```
