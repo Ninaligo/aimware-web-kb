@@ -34,6 +34,7 @@ nav:
                 - Vector3: lua/docs/class/vector3.md
             - Libraries:
                 - Entities: lua/docs/library/entities.md
+                - Panorama: lua/docs/library/panorama.md
                 - Input:
                     - GetMousePos: lua/docs/library/input/getmousepos.md
                     - IsButtonDown: lua/docs/library/input/isbuttondown.md
