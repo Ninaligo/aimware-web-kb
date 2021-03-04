@@ -17,4 +17,5 @@ local JSValue = client.GetConVar("r_eyemove");
 print(JSValue);
 
 --125
-```Example of importing a value into lua and exporting js value to lua.
+``` 
+Example of importing a value into lua and exporting js value to lua.
