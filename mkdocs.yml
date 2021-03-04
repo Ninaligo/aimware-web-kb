@@ -26,6 +26,7 @@ nav:
                 - Print: lua/docs/globals/print.md
             - Classes:
                 - EulerAngles: lua/docs/class/eulerangles.md
+                - Material: lua/docs/class/material.md
                 - File: lua/docs/class/file.md
                 - Font: lua/docs/class/font.md
                 - GuiObject: lua/docs/class/guiobject.md
@@ -34,6 +35,8 @@ nav:
                 - Vector3: lua/docs/class/vector3.md
             - Libraries:
                 - Entities: lua/docs/library/entities.md
+                - Panorama: lua/docs/library/panorama.md
+                - Materials: lua/docs/library/materials.md
                 - Input:
                     - GetMousePos: lua/docs/library/input/getmousepos.md
                     - IsButtonDown: lua/docs/library/input/isbuttondown.md
@@ -67,6 +70,7 @@ nav:
                     - CreateFont: lua/docs/library/draw/createfont.md
                     - AddFontResource: lua/docs/library/draw/addfontresource.md
                     - SetFont: lua/docs/library/draw/setfont.md
+                    - Fontlist: lua/docs/library/draw/fontlist.md
                     - CreateTexture: lua/docs/library/draw/createtexture.md
                     - UpdateTexture: lua/docs/library/draw/updatetexture.md
                     - SetTexture: lua/docs/library/draw/settexture.md

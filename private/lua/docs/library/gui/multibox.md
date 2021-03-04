@@ -29,5 +29,5 @@ local emb_checkbox_b = gui.Checkbox(emb_multibox, "emb_checkbox_b", "this checkb
 
 Screenshot
 <figure>
-  <img src="/lua/docs/library/gui/multibox_ss_transparent.png"/>
+  <img src="/kb/lua/docs/library/gui/multibox_ss_transparent.png"/>
 </figure>

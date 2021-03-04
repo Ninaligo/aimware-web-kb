@@ -65,10 +65,10 @@
 
 ## Example
 ```lua
---Executes button on keycode 32 which is "V"
+--Executes button on keycode 32 which is "V".
 cmd:SetButtons(32);
 ```
 
 ## Keylist
 For more information about key codes for setting buttons
-[Keylist](keylist.md)
+[Keylist](/kb/lua/docs/library/input/keylist/).

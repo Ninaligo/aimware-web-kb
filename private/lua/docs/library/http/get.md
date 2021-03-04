@@ -1,5 +1,5 @@
 # http.Get
-Returns web page body at given URL.
+Get data from a URL.
 
 ## Syntax
 ```
@@ -12,7 +12,8 @@ http.Get(url:string, callback:optional)
 ```callback``` _optional_ Callback function.
 
 ## Return value
-This function has no return value.
+
+```data``` Returns web page body at given URL.
 
 !!! note
 	To make this call non-blocking specify **callback(body)** function as second
