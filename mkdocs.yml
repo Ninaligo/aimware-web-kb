@@ -35,6 +35,7 @@ nav:
             - Libraries:
                 - Entities: lua/docs/library/entities.md
                 - Panorama: lua/docs/library/panorama.md
+                - Materials: lua/docs/library/materials.md
                 - Input:
                     - GetMousePos: lua/docs/library/input/getmousepos.md
                     - IsButtonDown: lua/docs/library/input/isbuttondown.md

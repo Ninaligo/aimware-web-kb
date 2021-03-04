@@ -2,7 +2,7 @@
 ```string:js RunScript(js)``` Run javascript in the context of CSGO panorama UI.
 
 ```lua 
-local value = 100
+local value = 100;
 
 panorama.RunScript([[
 	$.Msg("Loaded Panorama Script");
