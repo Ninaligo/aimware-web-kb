@@ -19,6 +19,7 @@ Returns a single value of true/false.
 
 
 ## Example
+General usage.
 ```lua
 local ecb_misc = gui.Reference("MISC");
 local ecb_gui = gui.Tab(ecb_misc, "ecb_gui", "Example Checkbox");
@@ -65,7 +66,7 @@ function ecb_checkbox_Changed()
 end
 ```
 
-Set the value of the checkbox
+Set the value of the checkbox.
 ```lua
 ecb_checkbox:SetValue(true);
 ```
