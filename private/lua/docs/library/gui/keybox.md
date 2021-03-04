@@ -67,4 +67,5 @@ ekb_keybox:SetValue(188) -- This will set the key to a comma
 ```
 
 ## Keylist
-For more information about [key codes](\lua\docs\library\input\keylist\).
+For more information about key codes for setting buttons
+[Keylist](/kb/lua/docs/library/input/keylist/)

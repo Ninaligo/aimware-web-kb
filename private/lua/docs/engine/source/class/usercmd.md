@@ -1,5 +1,5 @@
 # Class: UserCmd
-
+Class to work with the current command being sent to the server.
 
 ## Fields
 ```integer: commad_number```
@@ -40,17 +40,28 @@
 
 
 ## Functions
-```SetViewAngles(pitch, yaw, roll)``` Lets you set the pitch, yaw, and roll values.
+```EulerAngles GetViewAngles()``` Returns the viewangles.
 
-```GetViewAngles()``` Return the pitch, yaw, and roll values.
+```SetViewAngles(angles:EulerAngles)``` Set the viewangles.
 
-```SetSendPacket(sendpacket)``` Send a packet.
+```SetSendPacket(value:boolean)``` Set the value of sendpacket.
 
-```SetButtons(buttons)``` Set the buttons of user.
+```SetButtons(buttons:integer)``` Set the buttons.
 
-```GetButtons()``` Return the set buttons of user.
+!!! warning
+	When setting a button make sure to GetButtons() first and add any additional
+	button using the bitwise operator OR.
 
-```SetForwardMove(float:number)``` Move forward, accepts float value.
+!!! note
+	Read more about [Bitwise Operators](http://www.lua.org/manual/5.3/manual.html#3.4.2).
+
+!!! note
+	Check the VALVe SDK regarding the value of
+	[buttons](https://github.com/ValveSoftware/source-sdk-2013/blob/master/mp/src/game/shared/in_buttons.h)
+
+```integer GetButtons()``` Returns the buttons.
+
+```SetForwardMove(float:number)``` Set the forwardmove value.
 
 ```GetForwardMove()``` Return the amount of forward move.
 
@@ -62,13 +73,14 @@
 
 ```GetUpMove()``` Return the amount of up move.
 
+```boolean GetSendPacket()``` Return the sendpacket value.
+
+```SetSendPacket(value:boolean)``` Set the sendpacket value.
+
 
 ## Example
 ```lua
---Executes button on keycode 32 which is "V".
-cmd:SetButtons(32);
+-- Add IN_ATTACK button to the current buttons.
+local buttons = cmd:GetButtons();
+cmd:SetButtons(buttons | (1 << 0));
 ```
-
-## Keylist
-For more information about key codes for setting buttons
-[Keylist](/kb/lua/docs/library/input/keylist/).
