@@ -19,6 +19,10 @@ draw.Line(x1, y1, x2, y2)
 ```lua
 callbacks.Register("Draw", function()
 	draw.Color(255, 138, 130, 255);
-	draw.Line(0, 0, 1000, 50);
+	draw.Line(60, 60, 200, 90);
 end)
 ```
+
+<figure>
+  <img src="/kb/lua/docs/library/draw/line.png"/>
+</figure>
