@@ -3,24 +3,21 @@ Get screen size.
 
 ## Syntax
 ```
-{width:int, height:int} draw.GetTextSize(string:text)
+{width:int, height:int} draw.GetScreenSize()
 ```
 
-## Parameters
-```string:text``` The text to get the size of.
-
 ## Return value
-```integer:width``` Width of the text.
+```integer:width``` Width of the screen.
 
-```integer:height``` Height of the text.
+```integer:height``` Height of the screen.
 
 ## Example
 ```lua
 callbacks.Register("Draw", function()
-    local Tw, Th = draw.GetTextSize("The size of this text");
+    local w, h = draw.GetScreenSize();
 	
-	print("Text Width - " .. Tw .. " Text Height - " .. Th);  
+	print(w .. "x" .. h);  
 	
-	--Text Width - 123 Text Height - 9
+	--1600x900
 end)
 ```
