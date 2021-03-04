@@ -3,15 +3,15 @@ Draw outlined circle.
 
 ## Syntax
 ```
-draw.OutlinedCircle(x, y, radius)
+draw.OutlinedCircle(int:x, int:y, int:radius)
 ```
 
 ## Parameters
-```x``` Axis x.
+```integer:x``` Axis x.
 
-```y``` Axis y.
+```integer:y``` Axis y.
 
-```radius``` Round size.
+```integer:radius``` Round size.
 
 
 ## Example

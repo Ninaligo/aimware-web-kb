@@ -3,21 +3,21 @@ Draw filled triangle.
 
 ## Syntax
 ```
-draw.Triangle(x1, y1, x2, y2, x3, y3)
+draw.Triangle(int:x1, int:y1, int:x2, int:y2, int:x3, int:y3)
 ```
 
 ## Parameters
-```x1``` First point number of x.
+```integer:x1``` First point number of x.
 
-```y1``` First point number of y.
+```integer:y1``` First point number of y.
 
-```x2``` Second point number of x.
+```integer:x2``` Second point number of x.
 
-```y2``` Second point number of y.
+```integer:y2``` Second point number of y.
 
-```x3``` Third point number of x.
+```integer:x3``` Third point number of x.
 
-```y3``` Third point number of y.
+```integer:y3``` Third point number of y.
 
 ## Example
 ```lua

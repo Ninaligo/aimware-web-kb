@@ -3,27 +3,27 @@ Draw rounded filled rectangle with top left point at x1, y1 and bottom right poi
 
 ## Syntax
 ```
-draw.RoundedRectFill(x1, y1, x2, y2, radius, tl, tr, bl, br)
+draw.RoundedRectFill(int:x1, int:y1, int:x2, int:y2, int:radius, int:tl, int:tr, int:bl, int:br)
 ```
 
 ## Parameters
-```x1``` First point number of x.
+```integer:x1``` First point number of x.
 
-```y1``` First point number of y.
+```integer:y1``` First point number of y.
 
-```x2``` Second point number of x.
+```integer:x2``` Second point number of x.
 
-```y2``` Second point number of y.
+```integer:y2``` Second point number of y.
 
-```radius``` Amount of roundness.
+```integer:radius``` Amount of roundness.
 
-```tl``` Round top left corner.
+```integer:tl``` Round top left corner.
 
-```tr``` Round top right corner.
+```integer:tr``` Round top right corner.
 
-```bl``` Round bottom left corner.
+```integer:bl``` Round bottom left corner.
 
-```br``` Round bottom right corner.
+```integer:br``` Round bottom right corner.
 
 ## Example
 ```lua
