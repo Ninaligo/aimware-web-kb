@@ -11,6 +11,8 @@ draw.Color(r, g, b, a)
 
 ## Example
 ```lua
-draw.Color(255, 138, 130, 255);
-draw.Text(0, 0, "TextWithColor");
+callbacks.Register("Draw", function()
+	draw.Color(255, 138, 130, 255);
+	draw.Text(0, 0, "TextWithColor");
+end)
 ```
