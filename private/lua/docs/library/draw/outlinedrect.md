@@ -19,6 +19,10 @@ draw.OutlinedRect(x1, y1, x2, y2)
 ```lua
 callbacks.Register("Draw", function()
 	draw.Color(255, 138, 130, 255);
-	draw.OutlinedRect(0, 0, 200, 150);
+    draw.OutlinedRect(50, 50, 300, 200);
 end)
 ```
+
+<figure>
+  <img src="/kb/lua/docs/library/draw/outlinedrect.png"/>
+</figure>
