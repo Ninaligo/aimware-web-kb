@@ -12,4 +12,4 @@
 ```SetShaderParam(string:name, object:value)``` Modulate color of material.
 
 !!! note
-	[Shader parameters can be found here](https://developer.valvesoftware.com/wiki/Category:List_of_Shader_Parameters) .
+	[Shader parameters can be found here](https://developer.valvesoftware.com/wiki/Category:List_of_Shader_Parameters)
