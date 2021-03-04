@@ -1,5 +1,5 @@
 # draw.GetScreenSize
-Get screen size.
+Get the size of the current screen.
 
 ## Syntax
 ```
