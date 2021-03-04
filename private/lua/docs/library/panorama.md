@@ -19,3 +19,9 @@ print(JSValue);
 --125
 ``` 
 Example of importing a value into lua and exporting js value to lua.
+
+!!! note 
+	Documentation on the [Panorama API](https://developer.valvesoftware.com/wiki/CSGO_Panorama_API)
+	
+!!! note
+	More about Convars [Convar list](https://developer.valvesoftware.com/wiki/List_of_CS:GO_Cvars) 
