@@ -3,11 +3,11 @@ Create a new font to draw with. Set current font for drawing. To be used with Dr
 
 ## Syntax
 ```
-draw.CreateFont(string:name, int:height, int:weight(optional))
+draw.CreateFont(string:font, int:height, int:weight(optional))
 ```
 
 ## Parameters
-```string:name``` The font type to use.
+```string:font``` The font type to use.
 
 ```integer:height``` The height size that the text will be.
 
