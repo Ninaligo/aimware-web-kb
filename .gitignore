@@ -1,2 +1,14 @@
 /.idea/
 /public/
+pasteurize.exe
+pasteurize-script.py
+nltk.exe
+nltk-script.py
+mkdocs.exe
+markdown_py.exe
+livereload.exe
+livereload-script.py
+futurize.exe
+futurize-script.py
+easy_install.exe
+easy_install-3.9.exe
