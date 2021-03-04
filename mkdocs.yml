@@ -26,6 +26,7 @@ nav:
                 - Print: lua/docs/globals/print.md
             - Classes:
                 - EulerAngles: lua/docs/class/eulerangles.md
+                - Material: lua/docs/class/material.md
                 - File: lua/docs/class/file.md
                 - Font: lua/docs/class/font.md
                 - GuiObject: lua/docs/class/guiobject.md
