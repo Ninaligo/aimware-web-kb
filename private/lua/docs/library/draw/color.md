@@ -7,7 +7,13 @@ draw.Color(r, g, b, a)
 ```
 
 ## Parameters
-```rgba``` The color to draw with. (0-255, 0-255, 0-255, 0-255),
+```red``` The red channel color. Max 255.
+
+```green``` The green channel color. Max 255.
+
+```blue``` The blue channel color. Max 255.
+
+```alpha``` The alpha channel opacity. Max 255.
 
 ## Example
 ```lua
