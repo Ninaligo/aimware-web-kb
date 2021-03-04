@@ -7,6 +7,11 @@
 ```Enumerate(callback(mat))``` Enumerate all loaded materials.
 
 ```lua 
+materials.Enumerate(function(mat)
+	if string.find(mat:GetTextureGroupName(), "World") then
+		mat:AlphaModulate(0.3);
+	end
+end)
 ``` 
 
 ```Create(string:name, material:vmt, string:type)``` Create custom material.
