@@ -6,7 +6,9 @@ This class has no fields.
 ## Functions
 ```string GetName()``` Get the name of the entity.
 
-```GetClass()``` Get the class of the entity.
+```string GetModelName()``` Get the model name of the entity.
+
+```string GetClass()``` Get the class of the entity.
 
 ```integer GetIndex()``` Get the entity index.
 
@@ -22,39 +24,46 @@ This class has no fields.
 
 ```integer GetMaxHealth()``` Get max health of the entity.
 
-```boolean IsPlayer()``` Check if the entity is an player.
+```boolean IsPlayer()``` Returns if the entity is a player.
 
-```boolean IsAlive()``` Check if the entity is alive.
+```boolean IsAlive()``` Returns if the entity is alive.
 
-```GetProp(propName)``` Get the value of an prop.
+```boolean IsDormant()``` Returns if the entity is dormant.
 
-```SetProp(propName, value)``` Set the value of an prop.
+```mixed GetProp(name:string)``` Returns a prop value.
 
-```number GetPropFloat(...)``` Get the value of an prop as float.
+!!! warning
+	GetProp will fail if the prop value is not an integer, a number or a Vector3.
+	Consider using GetPropBool, GetPropEntity and GetPropString for boolean, Entity and
+	string types.
 
-```integer GetPropInt(...)``` Get the value of an prop as int.
+```SetProp(name:string, value)``` Set the value of a prop.
 
-```boolean GetPropBool(...)``` Get the value of an prop as bool.
+```number GetPropFloat(...)``` Get the value of a prop as float.
 
-```string GetPropString(...)``` Get the value of an prop as string.
+```integer GetPropInt(...)``` Get the value of a prop as int.
 
-```Vector3 GetPropVector(...)``` Get the value of an prop as vector.
+```boolean GetPropBool(...)``` Get the value of a prop as bool.
 
-```GetPropEntity(...)``` Get the value of an prop as an entity.
+```string GetPropString(...)``` Get the value of a prop as string.
 
-```SetPropFloat(number, ...)``` Set the value of an prop as float object.
+```Vector3 GetPropVector(...)``` Get the value of a prop as vector.
 
-```SetPropInt(integer, ...)``` Set the value of an prop as int object.
+```Entity GetPropEntity(...)``` Get the value of a prop as an entity.
 
-```SetPropBool(boolean, ...)``` Set the value of an prop as bool object.
+```SetPropFloat(number, ...)``` Set the value of a prop as float object.
 
-```SetPropVector(vector, ...)``` Set the value of an prop as vector object.
+```SetPropInt(integer, ...)``` Set the value of a prop as int object.
 
-```SetPropEntity(entity, ...)``` Set the value of an prop as entity object.
+```SetPropBool(boolean, ...)``` Set the value of a prop as bool object.
 
-```GetHitboxPosition(hitgroup)``` Get the hitbox position of the entity.
+```SetPropVector(vector, ...)``` Set the value of a prop as vector object.
 
-```GetBonePosition(boneIndex)``` Get the bone position of the entity.
+```SetPropEntity(entity, ...)``` Set the value of a prop as entity object.
+
+```Vector3 GetHitboxPosition(id:integer)``` Get the hitbox position of the entity.
+
+```Vector3 GetBonePosition(id:integer)``` Get the bone position of the entity.
 
 ```integer GetWeaponID()``` Get the weapon id from the entity.
 
