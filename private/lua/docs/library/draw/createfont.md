@@ -11,7 +11,7 @@ draw.CreateFont(string:name, int:height, int:weight(optional))
 
 ```integer:height``` The height size that the text will be.
 
-```integer:weight(optional)``` The amount of darkness being added.
+```integer:weight(optional)``` The amount of darkness being added. 100-900, increments of 100.
 
 
 ## Example
