@@ -15,7 +15,7 @@ draw.ShadowRect(x1, y1, x2, y2, radius)
 
 ```y2``` Second point number of y, Changes Height.
 
-```radius``` Amount of roundness.
+```radius``` Amount of shadow around the rectangle.
 
 ## Example
 ```lua
