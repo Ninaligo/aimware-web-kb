@@ -3,7 +3,7 @@ Draw rounded rectangle with top left point at x1, y1 and bottom right point at x
 
 ## Syntax
 ```
-draw.OutlinedRect(x1, y1, x2, y2, radius, tl, tr, bl, br)
+draw.RoundedRect(x1, y1, x2, y2, radius, tl, tr, bl, br)
 ```
 
 ## Parameters
