@@ -1,5 +1,5 @@
 # draw.RoundedRectFill
-Draw rounded filled rectangle with top left point at x1, y1 and bottom right point at x2, y2 radius = radius of roundness tl = round top left corner tr = round top right corner bl = round bottom left corner br = round bottom right corner
+Draw rounded filled rectangle with top left point at x1, y1 and bottom right point at x2, y2 radius = radius of roundness tl = round top left corner tr = round top right corner bl = round bottom left corner br = round bottom right corner.
 
 ## Syntax
 ```

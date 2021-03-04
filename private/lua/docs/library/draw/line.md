@@ -1,5 +1,5 @@
 # draw.Line
-Draw line from x1, y1 to x2, y2
+Draw line from x1, y1 to x2, y2.
 
 ## Syntax
 ```

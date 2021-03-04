@@ -1,5 +1,5 @@
 # draw.ShadowRect
-Draw shadow rectangle with top left point at x1, y1 and bottom right point at x2, y2
+Draw shadow rectangle with top left point at x1, y1 and bottom right point at x2, y2.
 
 ## Syntax
 ```
