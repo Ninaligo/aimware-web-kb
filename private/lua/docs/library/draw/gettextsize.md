@@ -1,5 +1,5 @@
 # draw.GetTextSize
-Get text size with current font
+Get text size with current font.
 
 ## Syntax
 ```

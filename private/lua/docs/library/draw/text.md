@@ -1,5 +1,5 @@
 # draw.Text
-Draw text at x, y
+Draw text at x, y.
 
 ## Syntax
 ```
