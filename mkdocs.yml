@@ -97,9 +97,9 @@ nav:
                 - HTTP:
                     - Get: lua/docs/library/http/get.md
                 - Network:
-                    - Socket: coming-soon.md
-                    - GetAddrInfo: coming-soon.md
-                    - GetNameInfo: coming-soon.md
+                    - Socket: lua/docs/library/network/socket.md
+                    - GetAddrInfo: lua/docs/library/network/getaddrinfo.md
+                    - GetNameInfo: lua/docs/library/network/getnameinfo.md
                 - Vector:
                     - Coming soon: coming-soon.md
             - Engine Specific:
