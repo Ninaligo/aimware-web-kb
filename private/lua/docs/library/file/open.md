@@ -1,8 +1,9 @@
 # file.Open
+Used for opening files for write, read, append access.
 
 ## Syntax
 ```
-file file.Open(string:filelocation, string:mode)
+{file} file.Open(string:filelocation, string:mode)
 ```
 
 ## Parameters
