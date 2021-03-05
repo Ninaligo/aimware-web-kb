@@ -1,5 +1,10 @@
 # file.Open
 
+## Syntax
+```
+file file.Open(string:filelocation, string:mode)
+```
+
 ## Parameters
 
 ```string:location filename``` Directory string to file. "/folder/this.txt"
