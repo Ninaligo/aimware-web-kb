@@ -27,7 +27,7 @@ callbacks.Register("Draw", function()
 	draw.FilledRect(300, 400, 400, 800);
 	
 	--Reset scissor area to allow seeing menu.
-	draw.SetScissorRect(0,0,draw.GetScreenSize());
+	draw.SetScissorRect(0, 0, draw.GetScreenSize());
 end)
 ```
 
