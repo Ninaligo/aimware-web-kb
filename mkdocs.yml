@@ -74,6 +74,7 @@ nav:
                     - CreateTexture: lua/docs/library/draw/createtexture.md
                     - UpdateTexture: lua/docs/library/draw/updatetexture.md
                     - SetTexture: lua/docs/library/draw/settexture.md
+                    - SetScissorRect: lua/docs/library/draw/setscissorrect.md
                 - File:
                     - Open: lua/docs/library/file/open.md
                     - Delete: lua/docs/library/file/delete.md
