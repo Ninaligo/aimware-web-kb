@@ -53,6 +53,8 @@ nav:
                     - DecodeJPEG: lua/docs/library/common/decodejpeg.md
                     - RasterizeSVG: lua/docs/library/common/rasterizesvg.md
                 - Draw:
+                    - Examples:
+                        - RectAnimation: lua/docs/library/draw/examples/rectanimation.md
                     - Color: lua/docs/library/draw/color.md
                     - Line: lua/docs/library/draw/line.md
                     - FilledRect: lua/docs/library/draw/filledrect.md
