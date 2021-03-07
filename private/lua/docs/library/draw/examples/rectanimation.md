@@ -39,5 +39,5 @@ end
 ```
 
 <figure>
-  <img src="/kb/lua/docs/library/draw/animationrect.gif"/>
+  <img src="/kb/lua/docs/library/draw/examples/animationrect.gif"/>
 </figure>
