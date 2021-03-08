@@ -55,7 +55,7 @@ Groupbox:Remove();
 ## Example
 ```lua
 local ragebotenabled = gui.GetValue("rbot.master");
-local speedburst = gui.GetValue("misc.speedburst.enable")
+local speedburst = gui.GetValue("misc.speedburst.enable");
 
-gui.SetValue("misc.speedburst.enable", true)
+gui.SetValue("misc.speedburst.enable", true);
 ```
