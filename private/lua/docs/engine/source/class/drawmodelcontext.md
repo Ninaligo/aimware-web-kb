@@ -4,6 +4,10 @@
 This class has no fields.
 
 ## Functions
+```GetModelName()```
+
+Returns the name of the model.
+
 ```GetEntity()```
 
 Returns the entity linked to the drawn model, can be nil.
