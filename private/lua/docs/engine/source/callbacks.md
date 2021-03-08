@@ -7,6 +7,12 @@ Called for every ESP entity. Returns [EspBuilder](./class/espbuilder.md).
 ## DrawModel(DrawModelContext)
 Called before model is drawn, eg. player or weapon model. Returns [DrawModelContext](./class/drawmodelcontext.md).
 
+## DrawModelGhost(DrawModelContext)
+Called before ghost model is drawn, eg. player or weapon model. Returns [DrawModelContext](./class/drawmodelcontext.md).
+
+## DrawModelBacktrack(DrawModelContext)
+Called before backtrack model is drawn, eg. player or weapon model. Returns [DrawModelContext](./class/drawmodelcontext.md).
+
 ## CreateMove(UserCmd)
 Called every input update, allows to modify viewangles, sendpacket, etc. Returns [UserCmd](./class/usercmd.md).
 
