@@ -27,3 +27,6 @@ Called when console command is sent to server, ex. chat command "say". Returns [
 
 ## AimbotTarget(Entity)
 Called when legitbot or ragebot switches target. Returns [Entity](./class/entity.md).
+
+## Unload()
+Called when script is getting unloaded.
