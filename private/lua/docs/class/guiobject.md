@@ -7,7 +7,7 @@ This class has no fields.
 
 ```GetName()``` Return name of the object.
 
-```SetValue()```Set value of the object.
+```SetValue(string:varname, object:value)```Set value of the object.
 
 ```GetValue()``` Return value of the object.
 
