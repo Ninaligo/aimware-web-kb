@@ -34,6 +34,9 @@ nav:
                 - Texture: lua/docs/class/texture.md
                 - Vector3: lua/docs/class/vector3.md
             - Libraries:
+                - Cheat:
+                    - IsFakeDucking: lua/docs/library/cheat/isfakeducking.md
+                    - RequestSpeedBurst: lua/docs/library/cheat/requestspeedburst.md
                 - Entities: lua/docs/library/entities.md
                 - Panorama: lua/docs/library/panorama.md
                 - Materials: lua/docs/library/materials.md
