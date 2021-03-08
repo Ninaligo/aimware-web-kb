@@ -48,3 +48,14 @@ Groupbox:SetDescription("New Description");
 Groupbox:SetDisabled(true);
 Groupbox:Remove();
 ```
+
+!!! note
+	To retrieve set config values, export your confiig to clipboard and you will be able to see the values you can get/set
+
+## Example
+```lua
+local ragebotenabled = gui.GetValue("rbot.master");
+local speedburst = gui.GetValue("misc.speedburst.enable")
+
+gui.SetValue("misc.speedburst.enable", true)
+```
