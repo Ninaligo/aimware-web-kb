@@ -87,7 +87,12 @@ nav:
                     - Read: lua/docs/library/file/read.md
                     - Write: lua/docs/library/file/write.md
                 - Gui:
+                    - Reference: lua/docs/library/gui/reference.md
+                    - XML: lua/docs/library/gui/reference.md
+                    - Elements: lua/docs/library/gui/elements.md
+                    - Attributes: lua/docs/library/gui/attributes.md
                     - Button: lua/docs/library/gui/button.md
+                    - RadioButton: lua/docs/library/gui/radiobutton.md
                     - Checkbox: lua/docs/library/gui/checkbox.md
                     - Color Picker: lua/docs/library/gui/colorpicker.md
                     - Combobox: lua/docs/library/gui/combobox.md
@@ -100,6 +105,7 @@ nav:
                     - Multibox: lua/docs/library/gui/multibox.md
                     - Slider: lua/docs/library/gui/slider.md
                     - Tab: lua/docs/library/gui/tab.md
+                    - Tablist: lua/docs/library/gui/tablist.md
                     - Text: lua/docs/library/gui/text.md
                     - Window: lua/docs/library/gui/window.md
                 - HTTP:

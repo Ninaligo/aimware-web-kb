@@ -39,6 +39,16 @@ This class has no fields.
 
 ```Remove()``` Remove UI object.
 
+```Reference(object)``` Checks for only the child objects.
+
+```GetString()``` Returns the value as a string object.
+
+```SetString(string:text)``` Sets the object value as a string.
+
+```SetIcon(texture, integer:scale)``` Sets the window icon.
+
+```Children()``` Returns a iterator for child objects.
+
 ## Example
 ```lua
 local Tab = gui.Tab(gui.Reference("Visuals"), "ScriptTabValue", "MyScript");
