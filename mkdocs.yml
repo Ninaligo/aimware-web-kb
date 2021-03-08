@@ -107,7 +107,7 @@ nav:
                     - GetAddrInfo: lua/docs/library/network/getaddrinfo.md
                     - GetNameInfo: lua/docs/library/network/getnameinfo.md
                 - Vector:
-                    - Coming soon: coming-soon.md
+                    - Vector: lua/docs/library/vector.md
             - Engine Specific:
                   - Source:
                         - Callbacks: lua/docs/engine/source/callbacks.md
