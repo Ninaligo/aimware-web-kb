@@ -7,6 +7,8 @@ This class has no fields.
 
 ```GetName()``` Return name of the object.
 
+```SetName()``` Set the name of the object. Example, button label.
+
 ```SetValue(string:varname, object:value)```Set value of the object.
 
 ```GetValue()``` Return value of the object.
