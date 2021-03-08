@@ -13,7 +13,9 @@ Makes speed burst activate.
 ```lua
 callbacks.Register("Draw", function()
 	if input.IsButtonDown(2) then
-		cheat.RequestSpeedBurst();
+		if gui.GetValue("misc.speedburst.enable") then
+			cheat.RequestSpeedBurst();
+		end
 	end
 end)
 ```
