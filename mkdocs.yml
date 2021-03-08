@@ -84,6 +84,8 @@ nav:
                     - Open: lua/docs/library/file/open.md
                     - Delete: lua/docs/library/file/delete.md
                     - Enumerate: lua/docs/library/file/enumerate.md
+                    - Read: lua/docs/library/file/read.md
+                    - Write: lua/docs/library/file/write.md
                 - Gui:
                     - Button: lua/docs/library/gui/button.md
                     - Checkbox: lua/docs/library/gui/checkbox.md
