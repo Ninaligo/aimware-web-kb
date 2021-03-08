@@ -70,3 +70,15 @@ gui.SetValue("misc.speedburst.enable", true);
 ```
 !!! note
 	To retrieve set config values, export your confiig to clipboard and you will be able to see the values you can get/set.
+
+## Example of reading children objects
+```lua
+local function PrintChildren(obj, prefix)
+	print(prefix .. obj:GetName());
+	for child in obj:Children() do
+		PrintChildren(child, prefix .. "\t");
+	end
+end
+
+PrintChildren(gui.Reference("MENU"), "");
+```
