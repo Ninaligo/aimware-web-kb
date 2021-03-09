@@ -17,6 +17,17 @@ nav:
         - Register a callback: lua/register-callbacks.md
 
         - Documentation:
+            - XML: 
+                - Attributes: lua/docs/xml/attributes.md
+                - Elements:
+                    - Window: lua/docs/xml/elements/window.md
+                    - Tab: lua/docs/xml/elements/tab.md
+                    - Button: lua/docs/xml/elements/button.md
+                    - Slider: lua/docs/xml/elements/slider.md
+                    - Groupbox: lua/docs/xml/elements/groupbox.md
+                    - Checkbox: lua/docs/xml/elements/checkbox.md
+                    - Text: lua/docs/xml/elements/text.md
+                    - ColorPicker: lua/docs/xml/elements/colorpicker.md
             - Callbacks: lua/docs/callbacks.md
             - Globals:
                 - GetScriptName: lua/docs/globals/getscriptname.md
@@ -89,8 +100,6 @@ nav:
                 - Gui:
                     - Reference: lua/docs/library/gui/reference.md
                     - XML: lua/docs/library/gui/xml.md
-                    - Elements: lua/docs/library/gui/elements.md
-                    - Attributes: lua/docs/library/gui/attributes.md
                     - Button: lua/docs/library/gui/button.md
                     - Checkbox: lua/docs/library/gui/checkbox.md
                     - Color Picker: lua/docs/library/gui/colorpicker.md
