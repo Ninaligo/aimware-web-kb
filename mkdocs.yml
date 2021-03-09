@@ -25,9 +25,15 @@ nav:
                     - Button: lua/docs/xml/elements/button.md
                     - Slider: lua/docs/xml/elements/slider.md
                     - Groupbox: lua/docs/xml/elements/groupbox.md
+                    - Combobox: lua/docs/xml/elements/combobox.md
                     - Checkbox: lua/docs/xml/elements/checkbox.md
                     - Text: lua/docs/xml/elements/text.md
                     - ColorPicker: lua/docs/xml/elements/colorpicker.md
+                    - Editbox: lua/docs/xml/elements/editbox.md
+                    - Keybox: lua/docs/xml/elements/keybox.md
+                    - Listbox: lua/docs/xml/elements/listbox.md
+                    - Multibox: lua/docs/xml/elements/multibox.md
+                    - Custom: lua/docs/xml/elements/custom.md
             - Callbacks: lua/docs/callbacks.md
             - Globals:
                 - GetScriptName: lua/docs/globals/getscriptname.md
