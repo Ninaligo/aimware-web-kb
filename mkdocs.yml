@@ -88,7 +88,7 @@ nav:
                     - Write: lua/docs/library/file/write.md
                 - Gui:
                     - Reference: lua/docs/library/gui/reference.md
-                    - XML: lua/docs/library/gui/reference.md
+                    - XML: lua/docs/library/gui/xml.md
                     - Elements: lua/docs/library/gui/elements.md
                     - Attributes: lua/docs/library/gui/attributes.md
                     - Button: lua/docs/library/gui/button.md
